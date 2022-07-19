@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: wheat;
+}
+
+p,
+img {
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+    border-color: lightgrey;
+    
+}
+
+#header {
+    padding: 20px;
+    color: white;
+    background-color: #79b5f1;
+}
+
+
+aside {
+    width: 200px;
+    padding: 20px;
+    display: inline-block
+}
+
+main {
+    width: 640px;
+    padding: 20px;
+    display: inline-block
+}
+
+#nav {
+    list-style-type: none;
+}
+
+#nav a {
+    text-decoration: none;
+}

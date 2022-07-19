@@ -1,0 +1,41 @@
+.row {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+gap: 20px;
+}
+
+.col, .col-2, .col-3 {
+    background-color: rgb(101,157,161);
+    color: white;
+    flex: 1;
+    padding: 20px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 20px;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 20px;
+}
+
+.col-3 {
+    flex: 3;
+    padding: 20px;
+}
+.space {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+
+}
+

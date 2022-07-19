@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center-box {
+    display: flex;
+    color: white;
+    background-color: rgb(100,149,237);
+    height: 20px;
+    padding: 20px;
+    margin: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 30px;
+    height: 25px;
+    margin-right: 20px; 
+}
+
+.nav-links {
+    justify-content: space-between;
+    width: 400px;
+}
+
+a {
+    color: white;
+}
+
+.links {
+    display: inline-block;
+margin-left: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+

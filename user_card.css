@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.card {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bar {
+    min-height: 80px;
+    background-color: rgb(23,162,184);
+    border: 3px solid rgb(23,162,184);
+}
+
+.content {
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+#profilepicture {
+    width: 100px;
+}
+
+.location {
+    width: 10px;
+}
+
+.iconsettings {
+    width: 15px;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.box {
+border: 3px solid grey;
+    border-top: none;
+    min-height: 250px;
+}

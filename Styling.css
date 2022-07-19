@@ -1,0 +1,26 @@
+h1 {
+background-color: black;
+color: white;
+font-family: 'Bubblegum Sans', cursive;
+padding: 15px;    
+}
+
+span {
+    color: rgb(0,255,255);
+}
+
+h2 {
+    background-color: rgb(102,51,153);
+    color: rgb(255,255,255);
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+h3 {
+    color: rgb(35,21,80);
+    background-color: rgb(159,197,248);
+    text-align: right;
+    text-decoration: underline;
+    padding: 5px;
+}

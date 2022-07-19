@@ -1,0 +1,49 @@
+h1 {
+    font-size: 50px;
+    color: rgb(52,72,85);
+    text-align: center;
+}
+.container {
+    width: 1435px;
+    height: 250px;
+    background-color: rgb(84,192,232);
+    margin-left: 18px;
+    margin-right: 50px;
+}
+img {
+    width: 306px;
+    height: 250px;
+}
+#dojo { 
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .box {
+        margin-left: 2px;
+        margin-right: 50px;
+        margin-top: 30px;
+        width: 1435px;
+        height: 250px;
+        background-color: rgb(216,155,173);
+    }
+    #squares {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+.cube {
+    width: 1435px;
+    height: 250px;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+#photos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}

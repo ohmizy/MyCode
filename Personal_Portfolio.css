@@ -1,0 +1,35 @@
+h1 {
+font-size: 50px;
+}
+
+.Inside_imgs{
+width: 30px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+table {
+    width: 400px;
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td {
+border: 1px solid #000;     
+}
+
+h3 {
+ font-size: 30px;
+}
+
+p{
+    font-size: 20px ;
+}
+
+h4 {
+font-size: 30px;
+}
