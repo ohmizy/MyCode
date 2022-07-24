@@ -1,0 +1,202 @@
+* {
+    font-family: "0swald", sans-serif;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px 0px;
+    margin-bottom: 1.5rem;
+}
+
+
+.nav-title {
+    color: white;
+    font-weight: 500;
+    font-size: 35pt;
+    position: relative;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(23,162,184);
+    width: 100px;
+    height: 32px;
+    font-size: large;
+}
+
+.button {
+    list-style: none;
+}
+
+.wholePage {
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.leftSideBox {
+    width: 750px;
+    background-color: white;
+}
+
+.rightSideBox {
+    width: 750px;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 1.5rem;
+}
+
+.usercard {
+    background-color: white;
+    border: 2px solid lightgrey;
+}
+.educationBox {
+    background-color: white;
+    border: 2px solid lightgrey;
+    margin-top: 1.5rem;
+}
+
+.connectionRequests {
+    background-color: white;
+    border: 2px solid lightgrey;
+}
+
+.yourConnections {
+    background-color: white;
+    border: 2px solid lightgrey;
+    margin-top: 1.5rem;
+}
+
+.topBar1 {
+    min-height: 75px;
+    background-color:rgb(23,162,184) ;
+}
+
+.topBar2 {
+    min-height: 50px;
+    background-color: rgb(51,51,51);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topBar3 {
+    min-height: 50px;
+    background-color: rgb(51,51,51);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topBar4 {
+    min-height: 50px;
+    background-color: rgb(51,51,51);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    margin-left: 5px;
+}
+
+h3 {
+    border-radius: 50%;
+    width: 25px;
+    background-color:rgb(204,204,204);
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+}
+
+h4 {
+    border-radius: 50%;
+    background-color: rgb(204,204,204);
+    margin-left: 3px;
+}
+
+p {
+padding: 20px;
+font-size: larger;
+}
+
+.iconSize {
+    border-radius: 50%;
+    width: 60px;
+    padding: 10px;
+}
+
+.names {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h5 {
+    font-size: x-large;
+}
+
+.acceptOrDecline {
+    width: 40px;
+    margin-left: 30px;
+}
+
+.defaultPP {
+    width: 80px;
+    border: 5px solid lightgray;
+    border-radius: 100%;
+}
+
+.imgmarker {
+    width: 15px;
+    margin-left: 12px;
+}
+
+.Seattle {
+    color: black;
+    margin-left: 10px;
+}
+
+h6 {
+    font-size: xx-large;
+}
+
+.gear {
+    width: 25px;
+}
+
+.EP {
+color: rgb(43,120,228);
+}
+
+.padding {
+    padding: 1.5rem;
+    position: relative;
+    bottom: 70px;
+}

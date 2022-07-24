@@ -11,55 +11,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Profile Page</title>
   </head>
-  
-      <header>
-      <div class="nav">
-      <h1 class="nav-title">Profile</h1>
+  <body>
+    <header class="nav">
       <ul class="nav-links">
+        <li><h1 class="nav-title">Profile</h1></li>
         <li><a href="#">Home</a></li>
-        <li><a href="#" class="active">My Profile</a></li>
+        <li><a href="#" id="on">My Profile</a></li>
         <li><a href="#">Find Connections</a></li>
+      </ul>
+      <ul class="button">
         <li><button class="btn">Sign Out</button></li>
-      </header>
-
-
-
-
-
-      <body>
-      <div class="card outline">
-        <div class="bar">
-    </div class="box">
-    <div class="content absolute flex">
-        <img src="Images\user-circle.png" alt="profilepicture" id="profilepicture">
-        <h1>Omar Sheikh Jabr</h1>
-    </div class= "pin flex">
-    <img src="Images\map-marker.png" alt="map-marker" class="location">
-    <p>Seattle</p>
-    <div>
-        <div class="text"></div>
-        <p>Developer / Engineer / Problem Solver</p>
-        <p>Master of Shadows and the Internet!</p>
-        <div>
-</div class="settings flex">
-<img src="Images\gear.png" alt="settingsicon" class="iconsettings">
-    <a href="">edit profile</a>
+      </ul>
+    </header>
+    <div class="wholePage">
+      <div class="profileBox">
+        <div class="left-side">
+          <div class="top-of-the-bar-profile-page"></div>
+          <div class="userCardOutline">
+            <div class="bio">
+              <img
+              class="userProfilePic"
+              src="./Images/user-circle.png"
+              alt="default profile picture"
+              />
+              <h1 class="FNLN">John Doe</h1>
+              <div class="location">
+                <img class="marker" src="./Images/map-marker.png" alt="map-marker" />
+                <p>Seattle</p>
+              </div>
+              <p class="bio-description">Developer | Engineer | Problem Solver |</p>
+              <p>Master of Shadows and the Internet!</p>
+              <img class="gear" src="./Images/gear.png" alt="Gear Icon" />
+              <a class="bluetext" href="editprofile">edit profile</a>
+            </div>
+      <div class="leftbottombox"></div>
+          </div>
+          </div>
+        </div>
       </div>
     </div>
-  
-
-
-
-
-    <div class="education_box">
-      <h3 class="Education_title">Education</h3>
-      <div class="education_bottom">
-        <h2>Coding Dojo - Full Stack Bootcamp</h2>
-        <h3 class="dates">Dec 2019 - March 2020</h3>
-        <p class="achievements">Triple Black Belt in Pyhton, MERN, and C#...</p>
-        </div>
-        <div>
   </body>
 </html>

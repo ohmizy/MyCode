@@ -6,80 +6,143 @@
 }
 
 .nav{
-    color: white;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-height: 20px;
+    padding: 0px 150px 0px;
+}
+
+a [href="#"] {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+    margin-left: 30px;
+    font-size: 15pt;
+    padding-right: 10px;
+}
+
+.nav-title {
+    color: white;
+    font-weight: 500;
+    font-size: 35pt;
+    position: relative;
 }
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    justify-content: center;
     align-items: center;
+    list-style: none;
+    gap: 20px;
 }
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 .btn {
     color: white;
     background-color: rgb(23,162,184);
-    padding: 5px;
-}
-
-
-
-
-
-
-* {
-    margin: 0;
-}
-
-.card {
-    width: 50%;
-    margin: 0 auto;
-}
-
-.bar {
-    min-height: 80px;
-    background-color: rgb(23,162,184);
-    border: 3px solid rgb(23,162,184);
-}
-
-.content {
-    margin-left: 30px;
-    flex-direction: column;
-}
-
-#profilepicture {
     width: 100px;
+    height: 32px;
+    font-size: large;
+}
+
+.button {
+    list-style: none;
+}
+
+.profileBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 30px 150px;
+    min-height: 500px;
+    width: 500px;
+}
+
+.left-side {
+    min-height: 500px;
+}
+
+.userCardOutline {
+width: 550px;
+border: 2px solid lightgray;
+}
+
+.top-of-the-bar-profile-page {
+    background-color: rgb(23,162,184);
+    min-height: 100px;
+}
+
+.userProfilePic {
+    width: 110px;
+    height: 100px;
+    border: 5px solid lightgray;
+    border-radius: 100%;
+}
+
+.bio {
+    padding: 25px 32px;
+    position: relative;
+    bottom: 78px;
+    left: 35px;
+}
+
+.FNLN {
+    margin-top: 30px;
+    font-size: 28pt;
+    font-weight: lighter;
 }
 
 .location {
-    width: 10px;
-}
-
-.iconsettings {
-    width: 15px;
-}
-
-.flex {
+    margin: 10px 5px 14px;
+    font-size: 16pt;
     display: flex;
-    align-items: flex-start;
-    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.box {
-border: 3px solid grey;
-    border-top: none;
-    min-height: 250px;
+p {
+    font-weight: bold;
+    font-size: 15pt;
+    color: black;
 }
 
+.marker {
+    margin-right: 10px;
+    width: 12px;
+    position: relative;
+    top: 2px;
+}
 
+.bio-description {
+    margin-bottom: 3px;
+}
 
+.gear {
+    padding: 10px 14px 0px 3px;
+    width: 18px;
+    position: relative;
+    top: 3px;
+}
 
+.bluetext {
+    color: rgb(43,120,228);
+    font-size: 15pt;
+}
+
+#on {
+    color: white;
+}
+
+.wholePage {
+    min-height: 500px;
+    background-color: white;
+}
+
+.leftbottombox {
+    min-height: 500px;
+    background-color: white;
+}

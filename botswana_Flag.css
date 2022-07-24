@@ -1,0 +1,19 @@
+.LB {
+    background-color: rgb(106,164,203);
+    width: 1200px;
+    height: 200px;
+}
+
+.black {
+    background-color: black;
+    width: 1200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lightblue {
+    background-color: rgb(106,164,203);
+    width: 1200px;
+    height: 200px;
+}
