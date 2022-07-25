@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  background-color:rgb(204,204,204);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 150px 0px;
+  margin-bottom: 1.5rem;
+}
+
+
+.nav-title {
+  color: black;
+  font-weight: 500;
+  font-size: 35pt;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(43,120,228);
+  border: 3px solid black;
+  width: 100px;
+  height: 32px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.button {
+  list-style: none;
+  box-shadow: 3px 3px 3px black;
+}
+
+.searchBox {
+  background: white;
+  height: 18px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.searchBtn {
+  float: right;
+  width: 40px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.searchText {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  width: 240px;
+}
+
+.container {
+  min-height: 750px;
+  background-color: white;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.leftSide {
+  min-height: 750px;
+  background-color: white;
+  width: 500px;
+  flex: 2;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.rightSide {
+  min-height: 750px;
+  background-color:white;
+  width: 500px;
+  flex: 1;
+}
+
+.box1 {
+  min-height: 375px;
+  background-color: white;
+  margin-bottom: 15px;
+  border: 3px solid black;
+}
+
+.box2 {
+  min-height: 375px;
+  background-color: white;
+  margin-bottom: 15px;
+  border: 3px solid black;
+}
+
+.box3 {
+  min-height: 375px;
+  background-color: white;
+  margin-bottom: 15px;
+  border: 3px solid black;
+}
+
+h2 {
+  font-size: 60px;
+  margin-left: 30px;
+}
+
+.btn3 {
+  background-color: rgb(255,217,102);
+  color: black;
+  padding: 7px;
+  font-size: 20px;
+  box-shadow: 3px 3px 3px black;
+  margin-left: 60px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+p {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+.btn4 {
+  background-color:rgb(147,196,125);
+  color: black;
+  padding: 7px;
+  font-size: 20px;
+  box-shadow: 3px 3px 3px black;
+  margin-left: 85px;
+  margin-top: 30px;
+  cursor: pointer;
+}

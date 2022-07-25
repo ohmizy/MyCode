@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="buttonClicker.css" />
+    <script
+      src="https://kit.fontawesome.com/4f9499da11.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="nav">
+      <ul class="nav-links">
+        <li><h1 class="nav-title">Dojonary</h1></li>
+      </ul>
+      <div class="searchBox">
+        <input
+          class="searchText"
+          type="text"
+          name=""
+          placeholder="Type to search"
+        />
+        <a class="searchBtn" href="#"></a>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="button">
+        <button class="btn" onclick="logout(this)" >Login</button>
+    </header>
+<div class="container flex">
+  <div class="leftSide">
+    <div class="box1 flex">
+      <div class="word" >
+        <h2 class="size">ninja</h2>
+        <p>noun</p>
+        <p>Plural: ninjas</p>
+        <button class="btn3"onclick="likes(this)"  >13 likes</button>
+      </div>
+      <div class="definition" >
+        <h3>A practitioner skilled in <a href="">Japanese</a>  art of <a href="">ninjutsu</a></h3>
+      </div>
+    </div>
+    <div class="box2 flex">
+      <div class="word" >
+        <h2 class="size">ninja</h2>
+        <p>noun</p>
+        <p>Plural: ninjas</p>
+        <button class="btn3">37 likes</button>
+      </div>
+      <div class="definition">
+        <h3>A <a href="">Programmer </a>who breaks down problems with <a href="">zen</a>-like focus</h3>
+      </div>
+    </div>
+  </div>
+  <div class="rightSide">
+    <div class="box3" >
+      <div class="addDef" >
+        <h4>Dojonary is defined by <strong>YOU</strong></h4>
+        <button class="btn4" onclick="hide(this)">Add Defintion</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="buttonClicker.js"></script>
+  </body>
+</html>
