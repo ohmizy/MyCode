@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="petShelter.css" />
+  </head>
+  <body>
+    <div class="center-box">
+      <div class ="logo">
+        <img id="heartLogo" src="./heart-light.png" alt="White Heart" />
+        <h1 class="nav-title">Pet Shelter</h1>
+      </div>
+      <div class="nav-links">
+        <a class = "links" href="#">Find a Pet</a></li>
+        <a class = "links" href="#">About</a></li>
+        <button class="btn" onclick="hide(this)" >Donate</button>
+      </div>
+    </div>
+    <div class="center-box2">
+      <div>
+        <h3>Im looking for a...</h3>
+        <img class="paw" src="./paw-light.png" alt="Dog Paw Image">
+        <select onchange="picked(this)" name="dogsOption">
+          <option>Any Pet</option>
+          <option value = "dog">Dog</option>
+          <option value = "cat">Cat</option>
+        </select>
+      </div>
+      <div class="location" >
+        <h3>in or near...</h3>
+        <img class="locationMarker" src="./pin-light.png" alt="Location Marker">
+        <form action="/process" method="post">
+          <label for=""></label>
+          <input type="text" name="name" 
+          placeholder="City or Zipe Code" >
+        </form>
+      </div>
+      <button class="btn2">Find your new best friend</button>
+    </div>
+    <div class="wholePage">
+      <div class="pepper flex">
+        <div class="flex">
+          <img class="cat" src="./pepper.jpg" alt="Picture of Cat">
+          <div>
+            <h2>Pepper</h2>
+            <h4>Pepper is a slightly shy grey tabby, but she really loves showing her human affection</h4>
+          </div>
+          <div class="petAnimal">
+            <h4> <span id="like1" >3 </span>petting(s)</h4>
+            <button class="btn3" onclick="like(like1)">Pet Pepper</button>
+          </div>
+        </div>
+      </div>
+      <div class="bruce">
+        <div class="flex">
+          <img class="cat" src="./bruce.jpg" alt="Picture of Dog">
+          <div>
+            <h2>Bruce</h2>
+            <h4>Bruce is a loyal companion. He loves long walks and cold weather</h4>
+          </div>
+          <div class="petAnimal">
+            <h4> <span id="like2" >5 </span> petting(s)</h4>
+            <button class="btn3" onclick="like(like2)">Pet Bruce</button>
+          </div>
+        </div>
+      </div>
+      <div class="oscar">
+        <div class="flex">
+          <img class="cat" src="./oscar.jpg" alt="Picture of Dog">
+          <div>
+            <h2>Oscar</h2>
+            <h4>Oscar is bright, energetic and friendly. He is looking for a good home.</h4>
+          </div>
+          <div class="petAnimal">
+            <h4> <span id="like3" >8 </span> petting(s)</h4>
+            <button class="btn3" onclick="like(like3)">Pet Oscar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="petShelter.js"></script>
+  </body>
+</html>
